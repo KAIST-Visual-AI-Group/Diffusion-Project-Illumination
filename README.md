@@ -16,7 +16,7 @@
 </div>
 
 <div align=center>
-   <img src="./assets/images/teaser.png">
+   <img src="./assets/teaser.png">
    <figcaption>
     A real-world objects with diverse materials, captured under different illuminations.
     <i>Source: <a href="https://oppo-us-research.github.io/OpenIllumination/">OpenIllumination dataset.</a></i>
