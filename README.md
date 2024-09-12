@@ -18,7 +18,7 @@
 <div align=center>
    <img src="./assets/teaser.png">
    <figcaption>
-    A real-world images of objects with diverse materials and geometries, captured under various illuminations.
+    Large scale image dataset of real-world objects with diverse materials and geometries, captured under various illuminations.
     <i>Source: <a href="https://oppo-us-research.github.io/OpenIllumination/">OpenIllumination dataset.</a></i>
     </figcaption>
 </div>
