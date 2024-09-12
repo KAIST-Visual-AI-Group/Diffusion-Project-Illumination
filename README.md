@@ -33,10 +33,18 @@ Use the following command to download OLAT dataset:
 ```
 python open_illumination.py --light OLAT --local_dir {$LOCAL_DIR}
 ```
+The dataset provides the following fields:
+- file_path: file path to an image
+- light_idx: index of illuminations (0 to 141 for OLAT)
+- transform_matrix: OpenCV convention camera pose
+- camera_angle_x: camera angle to compute camera intrinsic
 
 ## Tasks
+Your task is to implement a conditional diffusion model that takes a source image and its lighting condition and generates a target image with the desired lighting condition.
+Report evaluation metrics using the test dataset. 
 
 ## Evaluation
+We will evaluate your model on unseen test dataset. Use training and validation dataset to train your model. 
 
 ## Acknowledgement 
 We appreciate the authors of [OpenIllumination](https://oppo-us-research.github.io/OpenIllumination/) for releasing their dataset to public. 
