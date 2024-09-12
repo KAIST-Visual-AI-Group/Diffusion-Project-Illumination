@@ -1,6 +1,6 @@
 <div align=center>
   <h1>
-  LIT: Lighting-Conditioned Image Translation
+  LIT :fire: : Lighting-Conditioned Image Translation
   </h1>
   <p>
     <a href=https://mhsung.github.io/kaist-cs492d-fall-2024/ target="_blank"><b>KAIST CS492(D): Diffusion Models and Their Applications (Fall 2024)</b></a><br>
@@ -18,14 +18,21 @@
 <div align=center>
    <img src="./assets/teaser.png">
    <figcaption>
-    A real-world objects with diverse materials, captured under different illuminations.
+    A real-world images of objects with diverse materials and geometries, captured under various illuminations.
     <i>Source: <a href="https://oppo-us-research.github.io/OpenIllumination/">OpenIllumination dataset.</a></i>
     </figcaption>
 </div>
 
 ## Description
+In this project, your task is to implement a conditional image diffusion model that takes a source image with its lighting conditions and generates an image with the target lighting conditions. 
+You will use real-world object images captured under different lighting conditions provided by [OpenIllumination](https://huggingface.co/datasets/OpenIllumination/OpenIllumination). 
 
 ## Data Specification
+There are two kinds of lighting conditions: OLAT (One-Light-At-a-Time) and lighting patterns. In this task, we will focus on OLAT conditions (142 cases). 
+Use the following command to download OLAT dataset:
+```
+python open_illumination.py --light OLAT --local_dir {$LOCAL_DIR}
+```
 
 ## Tasks
 
