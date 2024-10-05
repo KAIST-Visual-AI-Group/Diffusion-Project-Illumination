@@ -75,13 +75,13 @@ An example of the input and the desired output images is shown in the figure bel
 </div>
 
 ## Evaluation
-Once the training is completed, generate images with the target lighting condition (specified in the `tgt_light` field) using the source images (from the `src_img_path` field) in `eval.json`. The source and target images capture the same object with the same camera pose but under different lighting conditions. 
+Once the training is completed, generate images with the target lighting condition (specified in the `tgt_light` field of `eval.json`) using the source images (specified in the `src_img_path` field of `eval.json`) . The source and target images capture the same object with the same camera pose but under different lighting conditions. 
 Note that the generated images should have the **SAME** filename as the dictionary keys (e.g., `obj_14_red_bucket_src_003_tgt_010_NA1`) to correctly identify the target images during evaluation. 
 
 For evaluation, we will use the center-aligned ground truth images.
 Run the following command to preprocess the ground truth images:
 ```
-python preprocess_img.py --dataroot {$dataroot} --save_root {$save_root}
+python preprocess_img.py --dataroot {$DATAROOT} --save_root {$SAVE_ROOT}
 ```
 Note that if you used raw images (non-square, not center-aligned) during training, the source images should also be preprocessed to ensure accurate results.
 After the preprocessing step, place the generated and ground truth images in the same directory, respectively, and ensure that each pair of images shares the same filename, as shown below:
@@ -110,13 +110,10 @@ python eval.py --fdir1 {$FDIR1} --fdir2 {$FDIR2} --save_dir {$SAVE_DIR}
 ```
 `fdir1` and `fdir2` refer to the paths of the ground truth and generated images, respectively, and `save_dir` is the path where the evaluation output file will be saved.
 
-
-
-Use the pairs of images specified in `eval.json` to evaluate the model.
-Note that neither the source nor the target images may be used during training.
-
-
-
-
 ## Acknowledgement 
 We appreciate the authors of [OpenIllumination](https://oppo-us-research.github.io/OpenIllumination/) for releasing their dataset to public. 
+
+## References
+* FID: [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500)
+* LPIPS: [The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](https://arxiv.org/abs/1801.03924)
+* SSIM: [Image quality assessment: from error visibility to structural similarity](https://ieeexplore.ieee.org/document/1284395)
