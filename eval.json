@@ -1,0 +1,450 @@
+{
+    "obj_14_red_bucket_src_003_tgt_010_NA1": {
+        "src_light": "003",
+        "src_img_path": "obj_14_red_bucket/Lights/003/raw_undistorted/NA1.JPG",
+        "tgt_light": "010",
+        "tgt_img_path": "obj_14_red_bucket/Lights/010/raw_undistorted/NA1.JPG",
+        "mask_path": "obj_14_red_bucket/output/obj_masks/NA1.png"
+    },
+    "obj_26_pumpkin_src_008_tgt_012_NC1": {
+        "src_light": "008",
+        "src_img_path": "obj_26_pumpkin/Lights/008/raw_undistorted/NC1.JPG",
+        "tgt_light": "012",
+        "tgt_img_path": "obj_26_pumpkin/Lights/012/raw_undistorted/NC1.JPG",
+        "mask_path": "obj_26_pumpkin/output/obj_masks/NC1.png"
+    },
+    "obj_20_red_pot_src_003_tgt_005_NE5": {
+        "src_light": "003",
+        "src_img_path": "obj_20_red_pot/Lights/003/raw_undistorted/NE5.JPG",
+        "tgt_light": "005",
+        "tgt_img_path": "obj_20_red_pot/Lights/005/raw_undistorted/NE5.JPG",
+        "mask_path": "obj_20_red_pot/output/obj_masks/NE5.png"
+    },
+    "obj_31_painted_toy_src_013_tgt_010_NC2": {
+        "src_light": "013",
+        "src_img_path": "obj_31_painted_toy/Lights/013/raw_undistorted/NC2.JPG",
+        "tgt_light": "010",
+        "tgt_img_path": "obj_31_painted_toy/Lights/010/raw_undistorted/NC2.JPG",
+        "mask_path": "obj_31_painted_toy/output/obj_masks/NC2.png"
+    },
+    "obj_21_cube_src_010_tgt_006_CF5": {
+        "src_light": "010",
+        "src_img_path": "obj_21_cube/Lights/010/raw_undistorted/CF5.JPG",
+        "tgt_light": "006",
+        "tgt_img_path": "obj_21_cube/Lights/006/raw_undistorted/CF5.JPG",
+        "mask_path": "obj_21_cube/output/obj_masks/CF5.png"
+    },
+    "obj_05_bird_src_007_tgt_009_NC8": {
+        "src_light": "007",
+        "src_img_path": "obj_05_bird/Lights/007/raw_undistorted/NC8.JPG",
+        "tgt_light": "009",
+        "tgt_img_path": "obj_05_bird/Lights/009/raw_undistorted/NC8.JPG",
+        "mask_path": "obj_05_bird/output/obj_masks/NC8.png"
+    },
+    "obj_49_rubbery_dinasour_src_010_tgt_001_CC5": {
+        "src_light": "010",
+        "src_img_path": "obj_49_rubbery_dinasour/Lights/010/raw_undistorted/CC5.JPG",
+        "tgt_light": "001",
+        "tgt_img_path": "obj_49_rubbery_dinasour/Lights/001/raw_undistorted/CC5.JPG",
+        "mask_path": "obj_49_rubbery_dinasour/output/obj_masks/CC5.png"
+    },
+    "obj_28_metal_bucket_src_001_tgt_008_NC8": {
+        "src_light": "001",
+        "src_img_path": "obj_28_metal_bucket/Lights/001/raw_undistorted/NC8.JPG",
+        "tgt_light": "008",
+        "tgt_img_path": "obj_28_metal_bucket/Lights/008/raw_undistorted/NC8.JPG",
+        "mask_path": "obj_28_metal_bucket/output/obj_masks/NC8.png"
+    },
+    "obj_62-fabric-birthday-cake_src_005_tgt_007_CF8": {
+        "src_light": "005",
+        "src_img_path": "obj_62-fabric-birthday-cake/Lights/005/raw_undistorted/CF8.JPG",
+        "tgt_light": "007",
+        "tgt_img_path": "obj_62-fabric-birthday-cake/Lights/007/raw_undistorted/CF8.JPG",
+        "mask_path": "obj_62-fabric-birthday-cake/output/obj_masks/CF8.png"
+    },
+    "obj_01_car_src_009_tgt_004_CE2": {
+        "src_light": "009",
+        "src_img_path": "obj_01_car/Lights/009/raw_undistorted/CE2.JPG",
+        "tgt_light": "004",
+        "tgt_img_path": "obj_01_car/Lights/004/raw_undistorted/CE2.JPG",
+        "mask_path": "obj_01_car/output/obj_masks/CE2.png"
+    },
+    "obj_13_ceramic_cup_src_001_tgt_009_CA4": {
+        "src_light": "001",
+        "src_img_path": "obj_13_ceramic_cup/Lights/001/raw_undistorted/CA4.JPG",
+        "tgt_light": "009",
+        "tgt_img_path": "obj_13_ceramic_cup/Lights/009/raw_undistorted/CA4.JPG",
+        "mask_path": "obj_13_ceramic_cup/output/obj_masks/CA4.png"
+    },
+    "obj_32_stone2_src_001_tgt_002_CD8": {
+        "src_light": "001",
+        "src_img_path": "obj_32_stone2/Lights/001/raw_undistorted/CD8.JPG",
+        "tgt_light": "002",
+        "tgt_img_path": "obj_32_stone2/Lights/002/raw_undistorted/CD8.JPG",
+        "mask_path": "obj_32_stone2/output/obj_masks/CD8.png"
+    },
+    "obj_56-pumpkin6_src_003_tgt_012_CE2": {
+        "src_light": "003",
+        "src_img_path": "obj_56-pumpkin6/Lights/003/raw_undistorted/CE2.JPG",
+        "tgt_light": "012",
+        "tgt_img_path": "obj_56-pumpkin6/Lights/012/raw_undistorted/CE2.JPG",
+        "mask_path": "obj_56-pumpkin6/output/obj_masks/CE2.png"
+    },
+    "obj_51_plastic_man_src_005_tgt_009_NB3": {
+        "src_light": "005",
+        "src_img_path": "obj_51_plastic_man/Lights/005/raw_undistorted/NB3.JPG",
+        "tgt_light": "009",
+        "tgt_img_path": "obj_51_plastic_man/Lights/009/raw_undistorted/NB3.JPG",
+        "mask_path": "obj_51_plastic_man/output/obj_masks/NB3.png"
+    },
+    "obj_36_sponge_src_010_tgt_003_CB4": {
+        "src_light": "010",
+        "src_img_path": "obj_36_sponge/Lights/010/raw_undistorted/CB4.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_36_sponge/Lights/003/raw_undistorted/CB4.JPG",
+        "mask_path": "obj_36_sponge/output/obj_masks/CB4.png"
+    },
+    "obj_44_fabric_mushroom_src_010_tgt_002_NB6": {
+        "src_light": "010",
+        "src_img_path": "obj_44_fabric_mushroom/Lights/010/raw_undistorted/NB6.JPG",
+        "tgt_light": "002",
+        "tgt_img_path": "obj_44_fabric_mushroom/Lights/002/raw_undistorted/NB6.JPG",
+        "mask_path": "obj_44_fabric_mushroom/output/obj_masks/NB6.png"
+    },
+    "obj_24_volleyball_src_003_tgt_001_NB6": {
+        "src_light": "003",
+        "src_img_path": "obj_24_volleyball/Lights/003/raw_undistorted/NB6.JPG",
+        "tgt_light": "001",
+        "tgt_img_path": "obj_24_volleyball/Lights/001/raw_undistorted/NB6.JPG",
+        "mask_path": "obj_24_volleyball/output/obj_masks/NB6.png"
+    },
+    "obj_42_food_banana_src_013_tgt_003_NE5": {
+        "src_light": "013",
+        "src_img_path": "obj_42_food_banana/Lights/013/raw_undistorted/NE5.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_42_food_banana/Lights/003/raw_undistorted/NE5.JPG",
+        "mask_path": "obj_42_food_banana/output/obj_masks/NE5.png"
+    },
+    "obj_43_paper_ball_src_006_tgt_005_NC1": {
+        "src_light": "006",
+        "src_img_path": "obj_43_paper_ball/Lights/006/raw_undistorted/NC1.JPG",
+        "tgt_light": "005",
+        "tgt_img_path": "obj_43_paper_ball/Lights/005/raw_undistorted/NC1.JPG",
+        "mask_path": "obj_43_paper_ball/output/obj_masks/NC1.png"
+    },
+    "obj_09_ball_src_007_tgt_003_CA8": {
+        "src_light": "007",
+        "src_img_path": "obj_09_ball/Lights/007/raw_undistorted/CA8.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_09_ball/Lights/003/raw_undistorted/CA8.JPG",
+        "mask_path": "obj_09_ball/output/obj_masks/CA8.png"
+    },
+    "obj_03_chicken_src_003_tgt_011_NE1": {
+        "src_light": "003",
+        "src_img_path": "obj_03_chicken/Lights/003/raw_undistorted/NE1.JPG",
+        "tgt_light": "011",
+        "tgt_img_path": "obj_03_chicken/Lights/011/raw_undistorted/NE1.JPG",
+        "mask_path": "obj_03_chicken/output/obj_masks/NE1.png"
+    },
+    "obj_22_toy2_src_004_tgt_003_CB7": {
+        "src_light": "004",
+        "src_img_path": "obj_22_toy2/Lights/004/raw_undistorted/CB7.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_22_toy2/Lights/003/raw_undistorted/CB7.JPG",
+        "mask_path": "obj_22_toy2/output/obj_masks/CB7.png"
+    },
+    "obj_18_glass_cup_src_001_tgt_004_CE2": {
+        "src_light": "001",
+        "src_img_path": "obj_18_glass_cup/Lights/001/raw_undistorted/CE2.JPG",
+        "tgt_light": "004",
+        "tgt_img_path": "obj_18_glass_cup/Lights/004/raw_undistorted/CE2.JPG",
+        "mask_path": "obj_18_glass_cup/output/obj_masks/CE2.png"
+    },
+    "obj_15_flower_src_003_tgt_010_CF8": {
+        "src_light": "003",
+        "src_img_path": "obj_15_flower/Lights/003/raw_undistorted/CF8.JPG",
+        "tgt_light": "010",
+        "tgt_img_path": "obj_15_flower/Lights/010/raw_undistorted/CF8.JPG",
+        "mask_path": "obj_15_flower/output/obj_masks/CF8.png"
+    },
+    "obj_41_fabric_knob_src_013_tgt_004_ND5": {
+        "src_light": "013",
+        "src_img_path": "obj_41_fabric_knob/Lights/013/raw_undistorted/ND5.JPG",
+        "tgt_light": "004",
+        "tgt_img_path": "obj_41_fabric_knob/Lights/004/raw_undistorted/ND5.JPG",
+        "mask_path": "obj_41_fabric_knob/output/obj_masks/ND5.png"
+    },
+    "obj_12_bag_src_006_tgt_011_NA3": {
+        "src_light": "006",
+        "src_img_path": "obj_12_bag/Lights/006/raw_undistorted/NA3.JPG",
+        "tgt_light": "011",
+        "tgt_img_path": "obj_12_bag/Lights/011/raw_undistorted/NA3.JPG",
+        "mask_path": "obj_12_bag/output/obj_masks/NA3.png"
+    },
+    "obj_61-fabric-dolphin_src_001_tgt_006_CF1": {
+        "src_light": "001",
+        "src_img_path": "obj_61-fabric-dolphin/Lights/001/raw_undistorted/CF1.JPG",
+        "tgt_light": "006",
+        "tgt_img_path": "obj_61-fabric-dolphin/Lights/006/raw_undistorted/CF1.JPG",
+        "mask_path": "obj_61-fabric-dolphin/output/obj_masks/CF1.png"
+    },
+    "obj_02_egg_src_003_tgt_010_CC5": {
+        "src_light": "003",
+        "src_img_path": "obj_02_egg/Lights/003/raw_undistorted/CC5.JPG",
+        "tgt_light": "010",
+        "tgt_img_path": "obj_02_egg/Lights/010/raw_undistorted/CC5.JPG",
+        "mask_path": "obj_02_egg/output/obj_masks/CC5.png"
+    },
+    "obj_17_wooden_box_src_008_tgt_005_NA5": {
+        "src_light": "008",
+        "src_img_path": "obj_17_wooden_box/Lights/008/raw_undistorted/NA5.JPG",
+        "tgt_light": "005",
+        "tgt_img_path": "obj_17_wooden_box/Lights/005/raw_undistorted/NA5.JPG",
+        "mask_path": "obj_17_wooden_box/output/obj_masks/NA5.png"
+    },
+    "obj_16_toy_src_001_tgt_006_CE8": {
+        "src_light": "001",
+        "src_img_path": "obj_16_toy/Lights/001/raw_undistorted/CE8.JPG",
+        "tgt_light": "006",
+        "tgt_img_path": "obj_16_toy/Lights/006/raw_undistorted/CE8.JPG",
+        "mask_path": "obj_16_toy/output/obj_masks/CE8.png"
+    },
+    "obj_57-pumpkin7_src_009_tgt_010_CC4": {
+        "src_light": "009",
+        "src_img_path": "obj_57-pumpkin7/Lights/009/raw_undistorted/CC4.JPG",
+        "tgt_light": "010",
+        "tgt_img_path": "obj_57-pumpkin7/Lights/010/raw_undistorted/CC4.JPG",
+        "mask_path": "obj_57-pumpkin7/output/obj_masks/CC4.png"
+    },
+    "obj_46_fabric_dinasour_src_001_tgt_003_NA5": {
+        "src_light": "001",
+        "src_img_path": "obj_46_fabric_dinasour/Lights/001/raw_undistorted/NA5.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_46_fabric_dinasour/Lights/003/raw_undistorted/NA5.JPG",
+        "mask_path": "obj_46_fabric_dinasour/output/obj_masks/NA5.png"
+    },
+    "obj_58-pumpkin8_src_012_tgt_011_NA1": {
+        "src_light": "012",
+        "src_img_path": "obj_58-pumpkin8/Lights/012/raw_undistorted/NA1.JPG",
+        "tgt_light": "011",
+        "tgt_img_path": "obj_58-pumpkin8/Lights/011/raw_undistorted/NA1.JPG",
+        "mask_path": "obj_58-pumpkin8/output/obj_masks/NA1.png"
+    },
+    "obj_10_facemask_src_013_tgt_005_CF3": {
+        "src_light": "013",
+        "src_img_path": "obj_10_facemask/Lights/013/raw_undistorted/CF3.JPG",
+        "tgt_light": "005",
+        "tgt_img_path": "obj_10_facemask/Lights/005/raw_undistorted/CF3.JPG",
+        "mask_path": "obj_10_facemask/output/obj_masks/CF3.png"
+    },
+    "obj_25_basketball_src_012_tgt_001_CD3": {
+        "src_light": "012",
+        "src_img_path": "obj_25_basketball/Lights/012/raw_undistorted/CD3.JPG",
+        "tgt_light": "001",
+        "tgt_img_path": "obj_25_basketball/Lights/001/raw_undistorted/CD3.JPG",
+        "mask_path": "obj_25_basketball/output/obj_masks/CD3.png"
+    },
+    "obj_30_pumpkin3_src_010_tgt_008_NC1": {
+        "src_light": "010",
+        "src_img_path": "obj_30_pumpkin3/Lights/010/raw_undistorted/NC1.JPG",
+        "tgt_light": "008",
+        "tgt_img_path": "obj_30_pumpkin3/Lights/008/raw_undistorted/NC1.JPG",
+        "mask_path": "obj_30_pumpkin3/output/obj_masks/NC1.png"
+    },
+    "obj_33_fabric_basket_src_006_tgt_007_NC8": {
+        "src_light": "006",
+        "src_img_path": "obj_33_fabric_basket/Lights/006/raw_undistorted/NC8.JPG",
+        "tgt_light": "007",
+        "tgt_img_path": "obj_33_fabric_basket/Lights/007/raw_undistorted/NC8.JPG",
+        "mask_path": "obj_33_fabric_basket/output/obj_masks/NC8.png"
+    },
+    "obj_08_transparent_cup_src_005_tgt_008_NE5": {
+        "src_light": "005",
+        "src_img_path": "obj_08_transparent_cup/Lights/005/raw_undistorted/NE5.JPG",
+        "tgt_light": "008",
+        "tgt_img_path": "obj_08_transparent_cup/Lights/008/raw_undistorted/NE5.JPG",
+        "mask_path": "obj_08_transparent_cup/output/obj_masks/NE5.png"
+    },
+    "obj_35_transparent_plastic_cup_src_003_tgt_011_NB3": {
+        "src_light": "003",
+        "src_img_path": "obj_35_transparent_plastic_cup/Lights/003/raw_undistorted/NB3.JPG",
+        "tgt_light": "011",
+        "tgt_img_path": "obj_35_transparent_plastic_cup/Lights/011/raw_undistorted/NB3.JPG",
+        "mask_path": "obj_35_transparent_plastic_cup/output/obj_masks/NB3.png"
+    },
+    "obj_40_pine_src_002_tgt_004_NC8": {
+        "src_light": "002",
+        "src_img_path": "obj_40_pine/Lights/002/raw_undistorted/NC8.JPG",
+        "tgt_light": "004",
+        "tgt_img_path": "obj_40_pine/Lights/004/raw_undistorted/NC8.JPG",
+        "mask_path": "obj_40_pine/output/obj_masks/NC8.png"
+    },
+    "obj_45_metal_lizard_src_001_tgt_004_CB2": {
+        "src_light": "001",
+        "src_img_path": "obj_45_metal_lizard/Lights/001/raw_undistorted/CB2.JPG",
+        "tgt_light": "004",
+        "tgt_img_path": "obj_45_metal_lizard/Lights/004/raw_undistorted/CB2.JPG",
+        "mask_path": "obj_45_metal_lizard/output/obj_masks/CB2.png"
+    },
+    "obj_19_squirrel_src_011_tgt_003_NF2": {
+        "src_light": "011",
+        "src_img_path": "obj_19_squirrel/Lights/011/raw_undistorted/NF2.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_19_squirrel/Lights/003/raw_undistorted/NF2.JPG",
+        "mask_path": "obj_19_squirrel/output/obj_masks/NF2.png"
+    },
+    "obj_04_stone_src_002_tgt_009_CC5": {
+        "src_light": "002",
+        "src_img_path": "obj_04_stone/Lights/002/raw_undistorted/CC5.JPG",
+        "tgt_light": "009",
+        "tgt_img_path": "obj_04_stone/Lights/009/raw_undistorted/CC5.JPG",
+        "mask_path": "obj_04_stone/output/obj_masks/CC5.png"
+    },
+    "obj_48_metal_bucket2_src_006_tgt_003_ND5": {
+        "src_light": "006",
+        "src_img_path": "obj_48_metal_bucket2/Lights/006/raw_undistorted/ND5.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_48_metal_bucket2/Lights/003/raw_undistorted/ND5.JPG",
+        "mask_path": "obj_48_metal_bucket2/output/obj_masks/ND5.png"
+    },
+    "obj_23_cylinder_src_005_tgt_002_NB3": {
+        "src_light": "005",
+        "src_img_path": "obj_23_cylinder/Lights/005/raw_undistorted/NB3.JPG",
+        "tgt_light": "002",
+        "tgt_img_path": "obj_23_cylinder/Lights/002/raw_undistorted/NB3.JPG",
+        "mask_path": "obj_23_cylinder/output/obj_masks/NB3.png"
+    },
+    "obj_29_fabric_toy_src_001_tgt_010_CB4": {
+        "src_light": "001",
+        "src_img_path": "obj_29_fabric_toy/Lights/001/raw_undistorted/CB4.JPG",
+        "tgt_light": "010",
+        "tgt_img_path": "obj_29_fabric_toy/Lights/010/raw_undistorted/CB4.JPG",
+        "mask_path": "obj_29_fabric_toy/output/obj_masks/CB4.png"
+    },
+    "obj_38_floral_src_003_tgt_011_NF6": {
+        "src_light": "003",
+        "src_img_path": "obj_38_floral/Lights/003/raw_undistorted/NF6.JPG",
+        "tgt_light": "011",
+        "tgt_img_path": "obj_38_floral/Lights/011/raw_undistorted/NF6.JPG",
+        "mask_path": "obj_38_floral/output/obj_masks/NF6.png"
+    },
+    "obj_07_dog_src_002_tgt_004_NB3": {
+        "src_light": "002",
+        "src_img_path": "obj_07_dog/Lights/002/raw_undistorted/NB3.JPG",
+        "tgt_light": "004",
+        "tgt_img_path": "obj_07_dog/Lights/004/raw_undistorted/NB3.JPG",
+        "mask_path": "obj_07_dog/output/obj_masks/NB3.png"
+    },
+    "obj_59-lineball_src_006_tgt_004_NE7": {
+        "src_light": "006",
+        "src_img_path": "obj_59-lineball/Lights/006/raw_undistorted/NE7.JPG",
+        "tgt_light": "004",
+        "tgt_img_path": "obj_59-lineball/Lights/004/raw_undistorted/NE7.JPG",
+        "mask_path": "obj_59-lineball/output/obj_masks/NE7.png"
+    },
+    "obj_60-fabric-green-hedgehog_src_007_tgt_006_ND5": {
+        "src_light": "007",
+        "src_img_path": "obj_60-fabric-green-hedgehog/Lights/007/raw_undistorted/ND5.JPG",
+        "tgt_light": "006",
+        "tgt_img_path": "obj_60-fabric-green-hedgehog/Lights/006/raw_undistorted/ND5.JPG",
+        "mask_path": "obj_60-fabric-green-hedgehog/output/obj_masks/ND5.png"
+    },
+    "obj_27_pumpkin2_src_006_tgt_003_NA1": {
+        "src_light": "006",
+        "src_img_path": "obj_27_pumpkin2/Lights/006/raw_undistorted/NA1.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_27_pumpkin2/Lights/003/raw_undistorted/NA1.JPG",
+        "mask_path": "obj_27_pumpkin2/output/obj_masks/NA1.png"
+    },
+    "obj_53_rubbery_head_src_009_tgt_007_NF2": {
+        "src_light": "009",
+        "src_img_path": "obj_53_rubbery_head/Lights/009/raw_undistorted/NF2.JPG",
+        "tgt_light": "007",
+        "tgt_img_path": "obj_53_rubbery_head/Lights/007/raw_undistorted/NF2.JPG",
+        "mask_path": "obj_53_rubbery_head/output/obj_masks/NF2.png"
+    },
+    "obj_37_pumpkin4_fabric_src_013_tgt_007_NE1": {
+        "src_light": "013",
+        "src_img_path": "obj_37_pumpkin4_fabric/Lights/013/raw_undistorted/NE1.JPG",
+        "tgt_light": "007",
+        "tgt_img_path": "obj_37_pumpkin4_fabric/Lights/007/raw_undistorted/NE1.JPG",
+        "mask_path": "obj_37_pumpkin4_fabric/output/obj_masks/NE1.png"
+    },
+    "obj_06_cat_src_002_tgt_007_CB4": {
+        "src_light": "002",
+        "src_img_path": "obj_06_cat/Lights/002/raw_undistorted/CB4.JPG",
+        "tgt_light": "007",
+        "tgt_img_path": "obj_06_cat/Lights/007/raw_undistorted/CB4.JPG",
+        "mask_path": "obj_06_cat/output/obj_masks/CB4.png"
+    },
+    "obj_11_duck_src_001_tgt_007_NC8": {
+        "src_light": "001",
+        "src_img_path": "obj_11_duck/Lights/001/raw_undistorted/NC8.JPG",
+        "tgt_light": "007",
+        "tgt_img_path": "obj_11_duck/Lights/007/raw_undistorted/NC8.JPG",
+        "mask_path": "obj_11_duck/output/obj_masks/NC8.png"
+    },
+    "obj_55-pumpkin5_src_005_tgt_003_NB1": {
+        "src_light": "005",
+        "src_img_path": "obj_55-pumpkin5/Lights/005/raw_undistorted/NB1.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_55-pumpkin5/Lights/003/raw_undistorted/NB1.JPG",
+        "mask_path": "obj_55-pumpkin5/output/obj_masks/NB1.png"
+    },
+    "obj_52_hair_src_005_tgt_008_NB6": {
+        "src_light": "005",
+        "src_img_path": "obj_52_hair/Lights/005/raw_undistorted/NB6.JPG",
+        "tgt_light": "008",
+        "tgt_img_path": "obj_52_hair/Lights/008/raw_undistorted/NB6.JPG",
+        "mask_path": "obj_52_hair/output/obj_masks/NB6.png"
+    },
+    "obj_50_fabric_cow_src_005_tgt_002_NC2": {
+        "src_light": "005",
+        "src_img_path": "obj_50_fabric_cow/Lights/005/raw_undistorted/NC2.JPG",
+        "tgt_light": "002",
+        "tgt_img_path": "obj_50_fabric_cow/Lights/002/raw_undistorted/NC2.JPG",
+        "mask_path": "obj_50_fabric_cow/output/obj_masks/NC2.png"
+    },
+    "obj_63-fabric-friends-cup_src_008_tgt_002_CE8": {
+        "src_light": "008",
+        "src_img_path": "obj_63-fabric-friends-cup/Lights/008/raw_undistorted/CE8.JPG",
+        "tgt_light": "002",
+        "tgt_img_path": "obj_63-fabric-friends-cup/Lights/002/raw_undistorted/CE8.JPG",
+        "mask_path": "obj_63-fabric-friends-cup/output/obj_masks/CE8.png"
+    },
+    "obj_39_potato_src_005_tgt_001_CB7": {
+        "src_light": "005",
+        "src_img_path": "obj_39_potato/Lights/005/raw_undistorted/CB7.JPG",
+        "tgt_light": "001",
+        "tgt_img_path": "obj_39_potato/Lights/001/raw_undistorted/CB7.JPG",
+        "mask_path": "obj_39_potato/output/obj_masks/CB7.png"
+    },
+    "obj_47_printed_pine_src_003_tgt_007_NF7": {
+        "src_light": "003",
+        "src_img_path": "obj_47_printed_pine/Lights/003/raw_undistorted/NF7.JPG",
+        "tgt_light": "007",
+        "tgt_img_path": "obj_47_printed_pine/Lights/007/raw_undistorted/NF7.JPG",
+        "mask_path": "obj_47_printed_pine/output/obj_masks/NF7.png"
+    },
+    "obj_34_candle_src_002_tgt_003_NF4": {
+        "src_light": "002",
+        "src_img_path": "obj_34_candle/Lights/002/raw_undistorted/NF4.JPG",
+        "tgt_light": "003",
+        "tgt_img_path": "obj_34_candle/Lights/003/raw_undistorted/NF4.JPG",
+        "mask_path": "obj_34_candle/output/obj_masks/NF4.png"
+    },
+    "obj_64_greenhead_src_011_tgt_010_CD8": {
+        "src_light": "011",
+        "src_img_path": "obj_64_greenhead/Lights/011/raw_undistorted/CD8.JPG",
+        "tgt_light": "010",
+        "tgt_img_path": "obj_64_greenhead/Lights/010/raw_undistorted/CD8.JPG",
+        "mask_path": "obj_64_greenhead/output/obj_masks/CD8.png"
+    },
+    "obj_54_leather_bag_src_011_tgt_009_CA2": {
+        "src_light": "011",
+        "src_img_path": "obj_54_leather_bag/Lights/011/raw_undistorted/CA2.JPG",
+        "tgt_light": "009",
+        "tgt_img_path": "obj_54_leather_bag/Lights/009/raw_undistorted/CA2.JPG",
+        "mask_path": "obj_54_leather_bag/output/obj_masks/CA2.png"
+    }
+}

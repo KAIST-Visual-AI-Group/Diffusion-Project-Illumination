@@ -1,6 +1,7 @@
 import json
 from urllib.request import urlopen
 import huggingface_hub
+import os
 
 import argparse
 
@@ -21,6 +22,15 @@ def main():
     
     for obj_id in range(len(data['obj_list'])):
         obj = data['obj_list'][obj_id]
+
+        save_root_path = os.path.join(args.local_dir, args.light, obj['data_name'])
+        save_output_path = os.path.join(save_root_path, 'output')
+        save_lights_path = os.path.join(save_root_path, 'Lights')
+        print(save_lights_path, save_output_path)
+        if os.path.exists(save_output_path) and os.path.exists(save_lights_path):
+            if len(os.listdir(save_output_path)) == 5 and len(os.listdir(save_lights_path)) == 13:
+                print(f"Already downloaded {obj['data_name']}. Skipping...")
+                continue
 
         allow_patterns = [f"*{args.light}/{obj['data_name']}/Lights/*/raw_undistorted/*",
                         f"*{args.light}/{obj['data_name']}/output/*"
