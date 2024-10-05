@@ -31,7 +31,7 @@ You will use real-world object images captured under different lighting conditio
 > :warning: Do **NOT** use the pairs of images specified in `eval.json`, as these will be used for evaluation. Failure to meet this criterion may result in a zero score.
 
 OpenIllumination dataset provides two kinds of lighting conditions: OLAT (One-Light-At-a-Time) and lighting patterns. In this task, we will focus on lighting patterns conditions (13 patterns). 
-Use the following command to download `lighting_patterns` dataset:
+Use the following command to download `lighting_patterns` dataset in `$LOCAL_DIR`:
 ```
 python open_illumination.py --light lighting_patterns --local_dir {$LOCAL_DIR}
 ```
@@ -83,7 +83,7 @@ Run the following command to preprocess the ground truth images:
 ```
 python preprocess_img.py --dataroot {$DATAROOT} --save_root {$SAVE_ROOT}
 ```
-`dataroot` refers to the root directory of the dataset, and `save_root` is the root directory where the preprocessed images will be saved.
+`$DATAROOT` refers to the root directory of the dataset, and `$SAVE_ROOT` is the root directory where the preprocessed images will be saved.
 
 Note that if you used raw images (non-square, not center-aligned) during training, the source images should also be preprocessed to ensure accurate results.
 After the preprocessing step, place the generated and ground truth images in the same directory, respectively, and ensure that each pair of images shares the same filename, as shown below:
@@ -110,7 +110,7 @@ Then run the following command to evaluate on these metrics:
 ```
 python eval.py --fdir1 {$FDIR1} --fdir2 {$FDIR2} --save_dir {$SAVE_DIR}
 ```
-`fdir1` and `fdir2` refer to the paths of the ground truth and generated images, respectively, and `save_dir` is the path where the evaluation output file will be saved.
+`$FDIR1` and `$FDIR2` refer to the paths of the ground truth and generated images, respectively, and `$SAVE_DIR` is the path where the evaluation output file will be saved.
 
 ## Acknowledgement 
 We appreciate the authors of [OpenIllumination](https://oppo-us-research.github.io/OpenIllumination/) for releasing their dataset to public. 
