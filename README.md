@@ -44,7 +44,7 @@ Your task is to implement a conditional diffusion model that takes a source imag
 Report evaluation metrics using the test dataset. 
 
 ## Evaluation
-We will evaluate your model on unseen test dataset. Use training and validation dataset to train your model. 
+We will evaluate your model on the test dataset. Only use the training dataset to train your model. 
 
 ## Acknowledgement 
 We appreciate the authors of [OpenIllumination](https://oppo-us-research.github.io/OpenIllumination/) for releasing their dataset to public. 
