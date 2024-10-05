@@ -83,15 +83,17 @@ Run the following command to preprocess the ground truth images:
 ```
 python preprocess_img.py --dataroot {$DATAROOT} --save_root {$SAVE_ROOT}
 ```
+`dataroot` refers to the root directory of the dataset, and `save_root` is the root directory where the preprocessed images will be saved.
+
 Note that if you used raw images (non-square, not center-aligned) during training, the source images should also be preprocessed to ensure accurate results.
 After the preprocessing step, place the generated and ground truth images in the same directory, respectively, and ensure that each pair of images shares the same filename, as shown below:
 ```
-├── source                                          # Generated images from your model
+├── generated_images                                          # Generated images from your model
 │   ├── obj_01_car_src_009_tgt_004_CE2.png
 │   ├── obj_02_egg_src_003_tgt_010_CC5.png
 │   ├── ...
 │   └── obj_64_greenhead_src_011_tgt_010_CD8.png
-└── target                                          # Ground truth images of eval.json
+└── ground_truch_images                                       # Ground truth images of eval.json
     ├── obj_01_car_src_009_tgt_004_CE2.png
     ├── obj_02_egg_src_003_tgt_010_CC5.png
     ├── ...
