@@ -49,7 +49,7 @@ The dataset structure is outlined below:
 │   ├── 002
 └── output
     ├── com_masks                  # Object + support mask 
-    ├── obj_masks                  # Foreground object masks (May not be visible as stored in [0-1])
+    ├── obj_masks                  # Object mask (May not be visible as the images are stored in [0-1])
     │   ├── CA2.png
     │   ├── CA4.png
     │   ├── ...
@@ -81,11 +81,11 @@ Note that the generated images should have the **SAME** filename as the dictiona
 For evaluation, we will use the center-aligned ground truth images.
 Run the following command to preprocess the ground truth images:
 ```
-python preprocess_img.py --dataroot {$DATAROOT} --save_root {$SAVE_ROOT}
+python preprocess_img.py --data_root {$DATA_ROOT} --save_root {$SAVE_ROOT}
 ```
-`$DATAROOT` refers to the root directory of the dataset, and `$SAVE_ROOT` is the root directory where the preprocessed images will be saved.
+`$DATA_ROOT` refers to the root directory of the dataset, and `$SAVE_ROOT` is the root directory where the preprocessed images will be saved.
 
-Note that if you used raw images (non-square, not center-aligned) during training, the source images should also be preprocessed to ensure accurate results.
+Note that if you used raw images (non-square, not center-aligned) during training, the generated images should also be preprocessed to ensure accurate results.
 After the preprocessing step, place the generated and ground truth images in the same directory, respectively, and ensure that each pair of images shares the same filename, as shown below:
 ```
 ├── generated_images                                          # Generated images from your model
@@ -93,14 +93,14 @@ After the preprocessing step, place the generated and ground truth images in the
 │   ├── obj_02_egg_src_003_tgt_010_CC5.png
 │   ├── ...
 │   └── obj_64_greenhead_src_011_tgt_010_CD8.png
-└── ground_truch_images                                       # Ground truth images of eval.json
+└── ground_truch_images                                       # Preprocessed ground truth images of eval.json
     ├── obj_01_car_src_009_tgt_004_CE2.png
     ├── obj_02_egg_src_003_tgt_010_CC5.png
     ├── ...
     └── obj_64_greenhead_src_011_tgt_010_CD8.png
 ```
 
-We will use FID, PSNR, SSIM, and LPIPS scores to assess the diversity and fidelity of the generated images compared to the ground truth target images.
+We will use FID, PSNR, SSIM, and LPIPS scores to assess the quality and fidelity of the generated images compared to the ground truth target images.
 First, install the following packages 
 ```
 pip install lpips clean-fid torchmetrics
