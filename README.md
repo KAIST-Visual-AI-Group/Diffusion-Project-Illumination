@@ -28,7 +28,11 @@ In this project, your task is to implement a conditional image diffusion model t
 You will use real-world object images captured under different lighting conditions provided by [OpenIllumination](https://huggingface.co/datasets/OpenIllumination/OpenIllumination). 
 
 ## Data Specification
-> :warning: Do **NOT** use the pairs of images specified in `eval.json`, as these will be used for evaluation. Failure to meet this criterion may result in a zero score.
+> :warning: Failure to meet the criteria outlined below may result in a zero score.
+> 
+> Do **NOT** use the pairs of images specified in `eval.json` for training, as they will be used for evaluation.
+> 
+> Do **NOT** use images with camera poses other than those specified below for training.
 
 OpenIllumination dataset provides two kinds of lighting conditions: OLAT (One-Light-At-a-Time) and lighting patterns. In this task, we will focus on lighting patterns conditions (13 patterns). 
 Use the following command to download `lighting_patterns` dataset in `$LOCAL_DIR`:
@@ -36,6 +40,8 @@ Use the following command to download `lighting_patterns` dataset in `$LOCAL_DIR
 python open_illumination.py --light lighting_patterns --local_dir {$LOCAL_DIR}
 ```
 The dataset consists of 64 objects, each captured under 13 different lighting patterns and 48 distinct camera poses. 
+To reduce computational burden, we will limit the camera poses in the training data to 10 poses (NA3, NE7, CB5, CF8, NA7, CC7, CA2, NE1, NC3, CE2), which have approximately 0° elevation.
+
 The dataset structure is outlined below:
 ```
 ./obj_01_car/
@@ -58,7 +64,7 @@ The dataset structure is outlined below:
 ```
 
 Note that the images are not square, and the objects are not center-aligned. 
-For those who wish to preprocess the images to be square and center-aligned, refer to `preprocess_img.py` (originally provided for evaluation purposes).
+Preprocess your training pairs using the `center_crop_img()` function from `preprocess_img.py`, which centers the objects and resizes the images to 128x128 pixels (do not modify the resolution). 
 
 ## Tasks
 Your task is to implement a conditional diffusion model that takes a source image and its lighting condition and generates a target image with the desired lighting condition.
