@@ -91,8 +91,7 @@ python preprocess_img.py --data_root {$DATA_ROOT} --save_root {$SAVE_ROOT}
 ```
 `$DATA_ROOT` refers to the root directory of the dataset, and `$SAVE_ROOT` is the root directory where the preprocessed images will be saved.
 
-Note that if you used raw images (non-square, not center-aligned) during training, the generated images should also be preprocessed to ensure accurate results.
-After the preprocessing step, place the generated and ground truth images in the same directory, respectively, and ensure that each pair of images shares the same filename, as shown below:
+Place the generated and ground truth images in the same directory, respectively, and ensure that each pair of images shares the same filename, as shown below:
 ```
 ├── generated_images                                          # Generated images from your model
 │   ├── obj_01_car_src_009_tgt_004_CE2.png
