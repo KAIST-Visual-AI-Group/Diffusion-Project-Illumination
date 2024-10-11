@@ -29,8 +29,10 @@ You will use real-world object images captured under different lighting conditio
 
 ## Data Specification
 > :warning: Failure to meet the criteria outlined below may result in a zero score.
-> Do **NOT** use the pairs of images specified in `eval.json` for training, as they will be used for evaluation. 
-> Do NOT use images with camera poses other than those specified below for training.
+> 
+> Do **NOT** use the pairs of images specified in `eval.json` for training, as they will be used for evaluation.
+> 
+> Do **NOT** use images with camera poses other than those specified below for training.
 
 OpenIllumination dataset provides two kinds of lighting conditions: OLAT (One-Light-At-a-Time) and lighting patterns. In this task, we will focus on lighting patterns conditions (13 patterns). 
 Use the following command to download `lighting_patterns` dataset in `$LOCAL_DIR`:
