@@ -66,21 +66,20 @@ def center_crop_img(tgt_img_path, mask_img_path):
 def main(args):
     data_root = args.data_root
     save_root = args.save_root
+    json_path = args.json_path
 
     if os.path.exists(save_root):
         print("Save root already exists. Skipping...")
         exit(0)
     os.makedirs(save_root)
 
-    with open("eval.json", "r") as f:
+    with open(json_path, "r") as f:
         metadata = json.load(f)
 
     for k, v in metadata.items():
         print("Processing ", k)
 
-        # Modify this line to process other path data
         tgt_img_path = os.path.join(data_root, v["tgt_img_path"])
-
         mask_img_path = os.path.join(data_root, v["mask_path"])
 
         assert tgt_img_path is not None and mask_img_path is not None
@@ -95,6 +94,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_root", required=True)
     parser.add_argument("--save_root", required=True)
+    parser.add_argument("--json_path", default="./eval.json")
+    
     args = parser.parse_args()
 
     main(args)
