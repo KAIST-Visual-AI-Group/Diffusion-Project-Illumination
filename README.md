@@ -40,7 +40,7 @@ Use the following command to download `lighting_patterns` dataset in `$LOCAL_DIR
 python open_illumination.py --light lighting_patterns --local_dir {$LOCAL_DIR}
 ```
 The dataset consists of 64 objects, each captured under 13 different lighting patterns and 48 distinct camera poses. 
-To reduce computational burden, we will limit the camera poses in the training data to 10 poses (NA3, NE7, CB5, CF8, NA7, CC7, CA2, NE1, NC3, CE2), which have approximately 0° elevation.
+To reduce computational burden, we will limit the camera poses in the training data to 10 poses (NA3, NE7, CB5, CF8, NA7, CC7, CA2, NE1, NC3, CE2), which have approximately 0° elevation. This will scale down the dataset to roughly 100K images (64 objects x 13 x 12 light pattern combinations x 10 camera poses).
 
 The dataset structure is outlined below:
 ```
@@ -68,7 +68,7 @@ Preprocess your training pairs using the `center_crop_img()` function from `prep
 
 ## Tasks
 Your task is to implement a conditional diffusion model that takes a source image and its lighting condition and generates a target image with the desired lighting condition.
-An example of the input and the desired output images is shown in the figure below.
+An example of the input and the desired output images is shown in the figure below. 
 
 <div align="center">
   <figure>
