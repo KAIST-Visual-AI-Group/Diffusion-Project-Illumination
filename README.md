@@ -39,9 +39,7 @@ Use the following command to download `lighting_patterns` dataset in `$LOCAL_DIR
 ```
 python open_illumination.py --light lighting_patterns --local_dir {$LOCAL_DIR}
 ```
-The dataset consists of 64 objects, each captured under 13 different lighting patterns and 48 distinct camera poses. 
-To reduce computational burden, we will limit the camera poses in the training data to 10 poses (NA3, NE7, CB5, CF8, NA7, CC7, CA2, NE1, NC3, CE2), which have approximately 0° elevation. This will scale down the dataset to roughly 100K images (64 objects x 13 x 12 light pattern combinations x 10 camera poses).
-
+The dataset consists of 64 objects, each captured under 13 different lighting patterns and 48 distinct camera poses.
 The dataset structure is outlined below:
 ```
 ./obj_01_car/
@@ -62,6 +60,10 @@ The dataset structure is outlined below:
     │   └── NF7.png
     ├── ...
 ```
+
+For training, use image pairs (condition and output) that capture the same object at the same camera pose, differing only in lighting conditions. 
+For example, `./007/CA2.JPG` and `./005/CA2.JPG` form a valid pair, while `./007/CA2.JPG` and `./005/CA4.JPG` do not, as they are captured at different camera poses.
+To reduce computational burden, we will limit the camera poses in the training data to 10 poses (NA3, NE7, CB5, CF8, NA7, CC7, CA2, NE1, NC3, CE2), which have approximately 0° elevation. This will scale down the dataset to roughly 100K images (64 objects x 13 x 12 light pattern combinations x 10 camera poses).
 
 Note that the images are not square, and the objects are not center-aligned. 
 Preprocess your training pairs using the `center_crop_img()` function from `preprocess_img.py`, which centers the objects and resizes the images to 128x128 pixels (do not modify the resolution). 
