@@ -27,6 +27,9 @@
 In this project, your task is to implement a conditional image diffusion model that takes a source image with its lighting conditions and generates an image with the target lighting conditions. 
 You will use real-world object images captured under different lighting conditions provided by [OpenIllumination](https://huggingface.co/datasets/OpenIllumination/OpenIllumination). 
 
+In this project, you are allowed to use only [Stable Diffusion v2-base](https://huggingface.co/stabilityai/stable-diffusion-2-base) as the pretrained diffusion model. 
+Note that using any other versions of Stable Diffusion is **NOT** allowed.
+
 ## Data Specification
 > :warning: Failure to meet the criteria outlined below may result in a zero score.
 > 
