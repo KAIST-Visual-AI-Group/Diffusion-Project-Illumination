@@ -42,7 +42,8 @@ Use the following command to download `lighting_patterns` dataset in `$LOCAL_DIR
 ```
 python open_illumination.py --light lighting_patterns --local_dir {$LOCAL_DIR}
 ```
-The dataset consists of 64 objects, each captured under 13 different lighting patterns and 48 distinct camera poses.
+The dataset consists of 64 objects, each captured under 13 different lighting patterns and 48 distinct camera poses. 
+Additionally, the environment maps are provided [here](https://github.com/oppo-us-research/OpenIlluminationCapture/issues/2). You may use them for both training and evaluation. 
 The dataset structure is outlined below:
 ```
 ./obj_01_car/
